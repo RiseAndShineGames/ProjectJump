@@ -1,0 +1,43 @@
+{
+  "name": "Cali-Bunga",
+  "version": "1.0.0",
+  "description": "Meet Calin; a cute little cephalopod trying to grow up into a totally rad Kraken. There’s just one problem. The beach is haunted by ghosts and they don’t want to see Calin grow into a hot stud that can attract hot girls and tourists. Will Calin stay a cute little baby squid or will you help him grow up and turn this ghastly beach to a hip vacation spot?",
+  "private": true,
+  "main": "src/game.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf build",
+    "electron": "webpack && node electron.js",
+    "lint": "eslint .",
+    "start": "webpack-dev-server --hot --inline --content-base build/html --host 0.0.0.0 --port 4000",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SplatJS/splat-ecs-starter-project.git"
+  },
+  "keywords": [],
+  "author": "Rise & Shine Games <teamriseandshine@gmail.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SplatJS/splat-ecs-starter-project/issues"
+  },
+  "homepage": "https://github.com/SplatJS/splat-ecs-starter-project",
+  "devDependencies": {
+    "cordova": "^6.2.0",
+    "electron-packager": "^5.2.1",
+    "eslint": "^1.10.1",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-json": "^1.2.0",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.2",
+    "json-loader": "^0.5.4",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.4.4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "splat-ecs": "6.0.0"
+  }
+}
