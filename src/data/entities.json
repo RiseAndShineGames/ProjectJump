@@ -81,12 +81,8 @@
             "life":{
                 "lifeBar":3
             },
-            "animation":{
-                "time":0,
-                "frame":0,
-                "loop":true,
-                "speed":1,
-                "name":"baby-idle-right"
+            "image":{
+                "name":"babyOctopus.png"
             },
             "position":{
                 "x":100,
