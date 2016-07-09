@@ -3,7 +3,7 @@
 module.exports = function(ecs, game) { // eslint-disable-line no-unused-vars
 	game.entities.registerSearch("playerVelocity", ["player", "velocity"]);
     ecs.addEach(function(entity, elapsed) { // eslint-disable-line no-unused-vars
-        var image = game.entities.get(entity, "image");
+        //var image = game.entities.get(entity, "image");
         // var grounded = game.entities.get(entity, "grounded");
         // var velocity = game.entities.get(entity, "velocity");
         // var state = game.entities.get(entity,"adult") ? "adult" : "baby";
